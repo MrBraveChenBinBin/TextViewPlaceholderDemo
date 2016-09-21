@@ -15,6 +15,7 @@
 		96AE936D1D9266F500992876 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96AE936B1D9266F500992876 /* LaunchScreen.storyboard */; };
 		96AE93781D9266F500992876 /* TextViewPlaceholderSettingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AE93771D9266F500992876 /* TextViewPlaceholderSettingTests.m */; };
 		96AE93831D9266F500992876 /* TextViewPlaceholderSettingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AE93821D9266F500992876 /* TextViewPlaceholderSettingUITests.m */; };
+		96AE93921D92670000992876 /* CBBTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AE93911D92670000992876 /* CBBTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		96AE937E1D9266F500992876 /* TextViewPlaceholderSettingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextViewPlaceholderSettingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96AE93821D9266F500992876 /* TextViewPlaceholderSettingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextViewPlaceholderSettingUITests.m; sourceTree = "<group>"; };
 		96AE93841D9266F500992876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96AE93901D92670000992876 /* CBBTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBBTextView.h; sourceTree = "<group>"; };
+		96AE93911D92670000992876 /* CBBTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBBTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		96AE935C1D9266F500992876 /* TextViewPlaceholderSetting */ = {
 			isa = PBXGroup;
 			children = (
+				96AE93901D92670000992876 /* CBBTextView.h */,
+				96AE93911D92670000992876 /* CBBTextView.m */,
 				96AE93601D9266F500992876 /* AppDelegate.h */,
 				96AE93611D9266F500992876 /* AppDelegate.m */,
 				96AE93631D9266F500992876 /* ViewController.h */,
@@ -276,6 +281,7 @@
 				96AE93651D9266F500992876 /* ViewController.m in Sources */,
 				96AE93621D9266F500992876 /* AppDelegate.m in Sources */,
 				96AE935F1D9266F500992876 /* main.m in Sources */,
+				96AE93921D92670000992876 /* CBBTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +429,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TextViewPlaceholderSetting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.binbin.Brave.TextViewPlaceholderSetting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -434,6 +441,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TextViewPlaceholderSetting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.binbin.Brave.TextViewPlaceholderSetting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +513,7 @@
 				96AE93891D9266F500992876 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96AE938A1D9266F500992876 /* Build configuration list for PBXNativeTarget "TextViewPlaceholderSettingTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +522,7 @@
 				96AE938C1D9266F500992876 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96AE938D1D9266F500992876 /* Build configuration list for PBXNativeTarget "TextViewPlaceholderSettingUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +531,7 @@
 				96AE938F1D9266F500992876 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
